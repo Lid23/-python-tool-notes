@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# 模板
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 代码块
 
-## Commands
+=== "代码块1"
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    ``` py linenums="1"
+    
+    ```
 
-## Project layout
+=== "代码块2"
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    ``` py linenums="1" hl_lines="2"
+    ```
+
+=== "代码块3"
+
+    ```python linenums="1"
+    
+    ```
+
+
+
